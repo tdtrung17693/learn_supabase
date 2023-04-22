@@ -1,0 +1,24 @@
+.bookmark {
+    .bookmark__list {}
+    .bookmark__listItem {
+        margin-bottom: 1rem;
+    }
+    .bookmark__listItemLink {
+
+    }
+    .bookmark__listItemDelete {
+        background-color: #f45;
+        color: #fff;
+        margin-left: 1rem;
+        border: none;
+
+        &:hover {
+            background-color: #c45;
+        }
+    
+        &:disabled {
+            background-color: #ccc;
+            color: #666;
+        }
+    }
+}

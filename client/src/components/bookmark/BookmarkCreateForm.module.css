@@ -1,0 +1,11 @@
+.bookmarkForm {
+
+    .bookmarkForm__input {
+        display: block;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    .bookmarkForm__button {
+        display: block;
+    }
+}
